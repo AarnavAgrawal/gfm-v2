@@ -1,5 +1,3 @@
-//test if this works
-
 function getAdminBoundaryNames(){
   
   var aoi = ee.FeatureCollection("FAO/GAUL/2015/level2");
