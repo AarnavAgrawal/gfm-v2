@@ -9,13 +9,13 @@ A novel application for rapid flood mapping using Sentinel-1 SAR data and Google
 
 var aoi = 0
 // Import all the scripts
-var aoi_filter = require('users/pratyush_tripathy/flood_mapper:aoiFilter');
-var mapFloods = require('users/pratyush_tripathy/flood_mapper:mapFloods');
-var zscore = require('users/pratyush_tripathy/flood_mapper:zScore');
-var zscorebasic = require('users/pratyush_tripathy/flood_mapper:zScoreBasic');
-var floodLegend = require('users/pratyush_tripathy/flood_mapper:floodLegend');
-var generateChart = require('users/pratyush_tripathy/flood_mapper:availabilityGraphStacked')
-var floodExport = require('users/pratyush_tripathy/flood_mapper:floodMapExport');
+var aoi_filter = require('users/aarnavagrawal/GlobalFloodMapperV2:aoiFilter');
+var mapFloods = require('users/aarnavagrawal/GlobalFloodMapperV2:mapFloods');
+var zscore = require('users/aarnavagrawal/GlobalFloodMapperV2:zScore');
+var zscorebasic = require('users/aarnavagrawal/GlobalFloodMapperV2:zScoreBasic');
+var floodLegend = require('users/aarnavagrawal/GlobalFloodMapperV2:floodLegend');
+var generateChart = require('users/aarnavagrawal/GlobalFloodMapperV2:availabilityGraphStacked')
+var floodExport = require('users/aarnavagrawal/GlobalFloodMapperV2:floodMapExport');
 //generateCollectionChart
 
 // Import the aoiFilter module and create nested
